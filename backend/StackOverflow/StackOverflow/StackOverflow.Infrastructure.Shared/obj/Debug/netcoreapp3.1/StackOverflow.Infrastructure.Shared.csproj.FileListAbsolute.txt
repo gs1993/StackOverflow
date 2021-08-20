@@ -1,0 +1,14 @@
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\bin\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Shared.deps.json
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\bin\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Shared.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\bin\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Shared.pdb
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\bin\Debug\netcoreapp3.1\StackOverflow.Application.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\bin\Debug\netcoreapp3.1\StackOverflow.Domain.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\bin\Debug\netcoreapp3.1\StackOverflow.Application.pdb
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\bin\Debug\netcoreapp3.1\StackOverflow.Domain.pdb
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Shared.csprojAssemblyReference.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Shared.AssemblyInfoInputs.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Shared.AssemblyInfo.cs
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Shared.csproj.CoreCompileInputs.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Shared.csproj.CopyComplete
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Shared.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Shared\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Shared.pdb

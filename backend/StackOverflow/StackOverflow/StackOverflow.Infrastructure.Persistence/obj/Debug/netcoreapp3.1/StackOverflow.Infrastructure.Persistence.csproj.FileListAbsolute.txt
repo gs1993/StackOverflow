@@ -1,0 +1,14 @@
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Persistence.deps.json
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Persistence.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Persistence.pdb
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\StackOverflow.Application.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\StackOverflow.Domain.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\StackOverflow.Application.pdb
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\StackOverflow.Domain.pdb
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Persistence.csprojAssemblyReference.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Persistence.AssemblyInfo.cs
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Persistence.csproj.CopyComplete
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Persistence.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\StackOverflow.Infrastructure.Persistence.pdb

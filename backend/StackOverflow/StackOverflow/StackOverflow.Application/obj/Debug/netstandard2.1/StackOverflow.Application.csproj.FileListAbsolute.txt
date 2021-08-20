@@ -1,0 +1,12 @@
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\bin\Debug\netstandard2.1\StackOverflow.Application.deps.json
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\bin\Debug\netstandard2.1\StackOverflow.Application.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\bin\Debug\netstandard2.1\StackOverflow.Application.pdb
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\bin\Debug\netstandard2.1\StackOverflow.Domain.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\bin\Debug\netstandard2.1\StackOverflow.Domain.pdb
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\obj\Debug\netstandard2.1\StackOverflow.Application.csprojAssemblyReference.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\obj\Debug\netstandard2.1\StackOverflow.Application.AssemblyInfoInputs.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\obj\Debug\netstandard2.1\StackOverflow.Application.AssemblyInfo.cs
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\obj\Debug\netstandard2.1\StackOverflow.Application.csproj.CoreCompileInputs.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\obj\Debug\netstandard2.1\StackOverflow.Application.csproj.CopyComplete
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\obj\Debug\netstandard2.1\StackOverflow.Application.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Application\obj\Debug\netstandard2.1\StackOverflow.Application.pdb
