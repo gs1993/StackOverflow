@@ -1,0 +1,12 @@
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\bin\Debug\net5.0\StackOverflow.Domain.deps.json
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\bin\Debug\net5.0\StackOverflow.Domain.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\bin\Debug\net5.0\ref\StackOverflow.Domain.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\bin\Debug\net5.0\StackOverflow.Domain.pdb
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\obj\Debug\net5.0\StackOverflow.Domain.csprojAssemblyReference.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\obj\Debug\net5.0\StackOverflow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\obj\Debug\net5.0\StackOverflow.Domain.AssemblyInfoInputs.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\obj\Debug\net5.0\StackOverflow.Domain.AssemblyInfo.cs
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\obj\Debug\net5.0\StackOverflow.Domain.csproj.CoreCompileInputs.cache
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\obj\Debug\net5.0\StackOverflow.Domain.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\obj\Debug\net5.0\ref\StackOverflow.Domain.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.Domain\obj\Debug\net5.0\StackOverflow.Domain.pdb

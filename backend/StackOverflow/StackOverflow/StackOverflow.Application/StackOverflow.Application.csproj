@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Version>1.1.0</Version>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,7 +19,7 @@
     <ProjectReference Include="..\StackOverflow.Domain\StackOverflow.Domain.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DTOs\Post\" />
+    <Folder Include="Features\Posts\Commands\" />
   </ItemGroup>
 
 </Project>

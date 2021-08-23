@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StackOverflow.Application.DTOs.Account
+﻿namespace StackOverflow.Application.DTOs.Account
 {
     public class AuthenticationRequest
     {

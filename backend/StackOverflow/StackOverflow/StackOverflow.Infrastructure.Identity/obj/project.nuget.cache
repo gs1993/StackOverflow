@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CAneYvsj4cybN2yEwC7gSYlHRpNMzlrOgNwgr9RI+l4O8sjm1Rc3z748zJ+nUDrD0G6eqgoPgOJjrDOraePPgA==",
+  "dgSpecHash": "V6DikQLFecjnfl2cCyqz2htQ5oFMYsR3TYIK6+eUPSg1ATXa+D8nLNsQSoTGsOGA4eKKNgV1G5A3Nc6EdsR0iQ==",
   "success": true,
   "projectFilePath": "C:\\repository\\so\\StackOverflow\\backend\\StackOverflow\\StackOverflow\\StackOverflow.Infrastructure.Identity\\StackOverflow.Infrastructure.Identity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\csharpfunctionalextensions\\2.20.0\\csharpfunctionalextensions.2.20.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\fluentvalidation\\9.1.2\\fluentvalidation.9.1.2.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.2\\fluentvalidation.dependencyinjectionextensions.9.1.2.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512",

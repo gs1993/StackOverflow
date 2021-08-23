@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StackOverflow.Application.Enums
+﻿namespace StackOverflow.Application.Enums
 {
     public enum Roles
     {

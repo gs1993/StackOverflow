@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StackOverflow.Domain.Settings
+﻿namespace StackOverflow.Domain.Settings
 {
     public class JWTSettings
     {

@@ -1,8 +1,5 @@
-﻿using StackOverflow.Application.Interfaces;
+﻿using StackOverflow.Application.Interfaces.Utils;
 using System;
-using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
 
 namespace StackOverflow.Infrastructure.Shared.Services
 {

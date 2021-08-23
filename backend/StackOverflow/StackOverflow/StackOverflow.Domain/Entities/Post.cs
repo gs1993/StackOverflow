@@ -3,7 +3,7 @@ using System;
 
 namespace StackOverflow.Domain.Entities
 {
-    public class Post : Entity
+    public class Post : Entity<int>
     {
         public int? AcceptedAnswerId { get; private set; }
         public int? AnswerCount { get; private set; }

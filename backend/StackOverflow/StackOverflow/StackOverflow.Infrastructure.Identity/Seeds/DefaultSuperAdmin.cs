@@ -1,12 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Logging;
-using Org.BouncyCastle.Crypto.Prng.Drbg;
 using StackOverflow.Application.Enums;
 using StackOverflow.Infrastructure.Identity.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace StackOverflow.Infrastructure.Identity.Seeds

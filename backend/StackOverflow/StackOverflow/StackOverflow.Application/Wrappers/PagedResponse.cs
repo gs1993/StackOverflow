@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace StackOverflow.Application.Wrappers
+﻿namespace StackOverflow.Application.Wrappers
 {
     public class PagedResponse<T> : Response<T>
     {

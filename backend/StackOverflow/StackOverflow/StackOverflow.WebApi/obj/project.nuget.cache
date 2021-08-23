@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AbA/FACBtxJ0CnB5Pdk9lJ0maqKHoR7KDCtTn1g5Xg6IJ42lMs/Vbqg/T1xgMYMb4cVI37zi+i0Kcnejof7Spw==",
+  "dgSpecHash": "P9/3Tzsal/L69BfTbLR5J2T/Gh/xWeJKIRLsHl7+48H38p2E4d+6c3JiwLWYAKEuPXbUeNqfdaBvS42wu1ETMg==",
   "success": true,
   "projectFilePath": "C:\\repository\\so\\StackOverflow\\backend\\StackOverflow\\StackOverflow\\StackOverflow.WebApi\\StackOverflow.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\csharpfunctionalextensions\\2.20.0\\csharpfunctionalextensions.2.20.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\fluentvalidation\\9.1.2\\fluentvalidation.9.1.2.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.1.2\\fluentvalidation.aspnetcore.9.1.2.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.2\\fluentvalidation.dependencyinjectionextensions.9.1.2.nupkg.sha512",

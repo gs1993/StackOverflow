@@ -3,11 +3,7 @@ using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using StackOverflow.Application.Behaviours;
-using StackOverflow.Application.Features.Products.Commands.CreateProduct;
-using System;
-using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
 
 namespace StackOverflow.Application
 {

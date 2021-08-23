@@ -1,9 +1,5 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using StackOverflow.WebApi.Middlewares;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace StackOverflow.WebApi.Extensions
 {

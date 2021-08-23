@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sDTp9NbXGa4blMI9+DW3L+kBD3GerA+WyzIVmfpHaqcXETbjiB/QcOFFgPBgC0okPWqymfgsqB6+GI9dJcCfLw==",
+  "dgSpecHash": "G2jPRTu5WHnVGKumNeL/4xK6rzCy9Ww7bSw+DleYLkpyFqDnzF/AHlXh6vjd9i3uN1q0FVpDfXWHcD4zERim8w==",
   "success": true,
   "projectFilePath": "C:\\repository\\so\\StackOverflow\\backend\\StackOverflow\\StackOverflow\\StackOverflow.Infrastructure.Shared\\StackOverflow.Infrastructure.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\csharpfunctionalextensions\\2.20.0\\csharpfunctionalextensions.2.20.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\fluentvalidation\\9.1.2\\fluentvalidation.9.1.2.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.2\\fluentvalidation.dependencyinjectionextensions.9.1.2.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\mailkit\\2.8.0\\mailkit.2.8.0.nupkg.sha512",

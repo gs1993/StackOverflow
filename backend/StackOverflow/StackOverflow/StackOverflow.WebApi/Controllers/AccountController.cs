@@ -1,10 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using StackOverflow.Application.DTOs.Account;
-using StackOverflow.Application.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using StackOverflow.Application.Interfaces.Utils;
 using System.Threading.Tasks;
 
 namespace StackOverflow.WebApi.Controllers

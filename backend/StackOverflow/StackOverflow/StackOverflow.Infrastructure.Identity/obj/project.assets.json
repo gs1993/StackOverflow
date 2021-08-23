@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "AutoMapper/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -27,6 +27,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "CSharpFunctionalExtensions/2.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CSharpFunctionalExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/CSharpFunctionalExtensions.dll": {}
         }
       },
       "FluentValidation/9.1.2": {
@@ -1593,9 +1602,9 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "StackOverflow.Application/1.1.0": {
+      "StackOverflow.Application/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AutoMapper": "10.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.0.1",
@@ -1605,7 +1614,7 @@
           "Microsoft.EntityFrameworkCore": "3.1.7",
           "Microsoft.EntityFrameworkCore.InMemory": "3.1.7",
           "Newtonsoft.Json": "12.0.3",
-          "StackOverflow.Domain": "1.1.0",
+          "StackOverflow.Domain": "1.0.0",
           "System.Text.Json": "4.7.2"
         },
         "compile": {
@@ -1615,9 +1624,12 @@
           "bin/placeholder/StackOverflow.Application.dll": {}
         }
       },
-      "StackOverflow.Domain/1.1.0": {
+      "StackOverflow.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CSharpFunctionalExtensions": "2.20.0"
+        },
         "compile": {
           "bin/placeholder/StackOverflow.Domain.dll": {}
         },
@@ -1655,6 +1667,35 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "CSharpFunctionalExtensions/2.20.0": {
+      "sha512": "43XIz4ny7Cyq9W6KNKHlfSje+52kns/9DBZ5IgjUgiXWJtUubwWBh7WC2lQhViuqEB5CfbNZvDEu3C/WjSovpw==",
+      "type": "package",
+      "path": "csharpfunctionalextensions/2.20.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csharpfunctionalextensions.2.20.0.nupkg.sha512",
+        "csharpfunctionalextensions.nuspec",
+        "lib/net40/CSharpFunctionalExtensions.dll",
+        "lib/net40/CSharpFunctionalExtensions.pdb",
+        "lib/net40/CSharpFunctionalExtensions.xml",
+        "lib/net45/CSharpFunctionalExtensions.dll",
+        "lib/net45/CSharpFunctionalExtensions.pdb",
+        "lib/net45/CSharpFunctionalExtensions.xml",
+        "lib/net461/CSharpFunctionalExtensions.dll",
+        "lib/net461/CSharpFunctionalExtensions.pdb",
+        "lib/net461/CSharpFunctionalExtensions.xml",
+        "lib/net472/CSharpFunctionalExtensions.dll",
+        "lib/net472/CSharpFunctionalExtensions.pdb",
+        "lib/net472/CSharpFunctionalExtensions.xml",
+        "lib/net5.0/CSharpFunctionalExtensions.dll",
+        "lib/net5.0/CSharpFunctionalExtensions.pdb",
+        "lib/net5.0/CSharpFunctionalExtensions.xml",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.dll",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.pdb",
+        "lib/netstandard2.0/CSharpFunctionalExtensions.xml"
       ]
     },
     "FluentValidation/9.1.2": {
@@ -5837,19 +5878,19 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "StackOverflow.Application/1.1.0": {
+    "StackOverflow.Application/1.0.0": {
       "type": "project",
       "path": "../StackOverflow.Application/StackOverflow.Application.csproj",
       "msbuildProject": "../StackOverflow.Application/StackOverflow.Application.csproj"
     },
-    "StackOverflow.Domain/1.1.0": {
+    "StackOverflow.Domain/1.0.0": {
       "type": "project",
       "path": "../StackOverflow.Domain/StackOverflow.Domain.csproj",
       "msbuildProject": "../StackOverflow.Domain/StackOverflow.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.7",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.7",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.7",
@@ -5858,7 +5899,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.7",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 3.1.7",
       "MimeKit >= 2.9.1",
-      "StackOverflow.Application >= 1.1.0",
+      "StackOverflow.Application >= 1.0.0",
       "System.IdentityModel.Tokens.Jwt >= 6.7.1",
       "microsoft.extensions.dependencyinjection >= 3.1.7"
     ]
@@ -5869,7 +5910,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.1.0",
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\repository\\so\\StackOverflow\\backend\\StackOverflow\\StackOverflow\\StackOverflow.Infrastructure.Identity\\StackOverflow.Infrastructure.Identity.csproj",
       "projectName": "StackOverflow.Infrastructure.Identity",
@@ -5887,15 +5928,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
             "C:\\repository\\so\\StackOverflow\\backend\\StackOverflow\\StackOverflow\\StackOverflow.Application\\StackOverflow.Application.csproj": {
               "projectPath": "C:\\repository\\so\\StackOverflow\\backend\\StackOverflow\\StackOverflow\\StackOverflow.Application\\StackOverflow.Application.csproj"
@@ -5910,8 +5951,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",

@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using StackOverflow.Application;
-using StackOverflow.Application.Interfaces;
+using StackOverflow.Application.Interfaces.Utils;
 using StackOverflow.Infrastructure.Identity;
 using StackOverflow.Infrastructure.Persistence;
 using StackOverflow.Infrastructure.Shared;

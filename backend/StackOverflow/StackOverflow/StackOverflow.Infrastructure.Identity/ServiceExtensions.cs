@@ -6,18 +6,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
-using StackOverflow.Application.Exceptions;
-using StackOverflow.Application.Interfaces;
+using StackOverflow.Application.Interfaces.Utils;
 using StackOverflow.Application.Wrappers;
 using StackOverflow.Domain.Settings;
 using StackOverflow.Infrastructure.Identity.Contexts;
-using StackOverflow.Infrastructure.Identity.Helpers;
 using StackOverflow.Infrastructure.Identity.Models;
 using StackOverflow.Infrastructure.Identity.Services;
 using System;
-using System.Reflection.Metadata.Ecma335;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace StackOverflow.Infrastructure.Identity
 {
