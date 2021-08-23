@@ -7,9 +7,9 @@ C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\StackOverflow.WebApi.dll
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\ref\StackOverflow.WebApi.dll
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\StackOverflow.WebApi.pdb
-C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\StackOverflow.WebApi.xml
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\AutoMapper.dll
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\CSharpFunctionalExtensions.dll
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\FluentValidation.dll
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
@@ -173,4 +173,3 @@ C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\obj\Debug\net5.0\ref\StackOverflow.WebApi.dll
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\obj\Debug\net5.0\StackOverflow.WebApi.pdb
 C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\obj\Debug\net5.0\StackOverflow.WebApi.genruntimeconfig.cache
-C:\repository\so\StackOverflow\backend\StackOverflow\StackOverflow\StackOverflow.WebApi\bin\Debug\net5.0\CSharpFunctionalExtensions.dll

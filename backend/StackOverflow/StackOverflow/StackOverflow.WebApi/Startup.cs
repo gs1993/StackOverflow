@@ -27,6 +27,9 @@ namespace StackOverflow.WebApi
             services.AddPersistenceInfrastructure(_config);
             services.AddSharedInfrastructure(_config);
             services.AddSwaggerExtension();
+
+            services.AddCors();
+
             services.AddControllers();
             services.AddApiVersioningExtension();
             services.AddHealthChecks();
@@ -44,8 +47,16 @@ namespace StackOverflow.WebApi
                 app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
-            app.UseHttpsRedirection();
+
+           
             app.UseRouting();
+
+            app.UseCors(x => x
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .SetIsOriginAllowed(origin => true) // allow any origin
+                .AllowCredentials()); // allow credentials
+
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseSwaggerExtension();
