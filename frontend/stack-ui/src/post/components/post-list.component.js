@@ -1,6 +1,36 @@
 import React, { useMemo, useState, useEffect } from "react";
 import PostTable from "../PostTable/post-table"
 import api from "../../api";
+import dateFormat from "dateformat";
+
+const DateFormater = ({ value }) => {
+    const year = dateFormat(value, "yyyy");
+    return (
+        <>
+            {year === dateFormat(new Date(), "yyyy") ? dateFormat(value, "mm-dd") : dateFormat(value, "yyyy-mm-dd")}
+        </>
+    );
+};
+
+const NumberFormatter = ({ value }) => {
+    const inMillions = value >= 1000000
+    const inThousands = !inMillions && value >= 1000;
+    return (
+        <>
+            {inMillions ? Math.sign(value) * ((Math.abs(value) / 1000000).toFixed(1)) + 'M' : ''}
+            {inThousands ? Math.sign(value) * ((Math.abs(value) / 1000).toFixed(1)) + 'K' : value}
+        </>
+    );
+};
+
+const TextShortFormatter = ({ value }) => {
+    return (
+        <>
+            {value !== null && value.length > 50 ? value.substr(0, 50) + '...' : value}
+        </>
+    );
+};
+
 
 export default function PostList() {
     const columns = useMemo(
@@ -10,7 +40,8 @@ export default function PostList() {
                 columns: [
                     {
                         Header: "Title",
-                        accessor: "title"
+                        accessor: "title",
+                        Cell: ({ cell: { value } }) => <TextShortFormatter value={value} />
                     },
                     {
                         Header: "Type",
@@ -23,7 +54,8 @@ export default function PostList() {
                 columns: [
                     {
                         Header: "User",
-                        accessor: "ownerUserName"
+                        accessor: "ownerUserName",
+                        Cell: ({ cell: { value } }) => <TextShortFormatter value={value} />
                     },
                     {
                         Header: "Score",
@@ -32,18 +64,22 @@ export default function PostList() {
                     {
                         Header: "Answers",
                         accessor: "answerCount",
+                        Cell: ({ cell: { value } }) => <NumberFormatter value={value} />
                     },
                     {
                         Header: "Comments",
-                        accessor: "commentCount"
+                        accessor: "commentCount",
+                        Cell: ({ cell: { value } }) => <NumberFormatter value={value} />
                     },
                     {
                         Header: "Views",
-                        accessor: "viewCount"
+                        accessor: "viewCount",
+                        Cell: ({ cell: { value } }) => <NumberFormatter value={value} />
                     },
                     {
                         Header: "Created",
-                        accessor: "creationDate"
+                        accessor: "creationDate",
+                        Cell: ({ cell: { value } }) => <DateFormater value={value} />
                     }
                 ]
             }
