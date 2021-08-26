@@ -8,7 +8,7 @@ namespace StackOverflow.Application.Interfaces.Repositories
 {
     public interface IPostRepository : IGenericRepository<Post>
     {
-        public Task<IEnumerable<PostDto>> GetPosts(int skip, int take);
+        public Task<IEnumerable<PostDto>> GetPosts(int skip, int take, int maxTitleLength);
         public Task<long> FastApproximateCount();
     }
 }

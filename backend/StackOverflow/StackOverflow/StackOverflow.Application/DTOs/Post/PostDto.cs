@@ -6,7 +6,6 @@ namespace StackOverflow.Application.DTOs.Post
     {
         public long Id { get; init; }
         public string Title { get; init; }
-        public string Body { get; init; }
         public string OwnerUserName { get; init; }
         public string PostType { get; init; }
         public bool IsClosed { get; init; }

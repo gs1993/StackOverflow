@@ -1,5 +1,6 @@
 ﻿using CSharpFunctionalExtensions;
 using System;
+using System.Collections.Generic;
 
 namespace StackOverflow.Domain.Entities
 {
@@ -14,5 +15,7 @@ namespace StackOverflow.Domain.Entities
         public int Reputation { get; set; }
         public int Views { get; set; }
         public string WebsiteUrl { get; set; }
+
+        public IEnumerable<Post> Posts { get; private set; }
     }
 }

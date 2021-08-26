@@ -17,7 +17,7 @@ namespace StackOverflow.Infrastructure.Persistence.Repositories
         }
 
 
-        public async Task<IEnumerable<PostDto>> GetPosts(int skip, int take)
+        public async Task<IEnumerable<PostDto>> GetPosts(int skip, int take, int maxTitleLength)
         {
             return await _dbContext.Posts
                 .AsNoTracking()
@@ -27,9 +27,8 @@ namespace StackOverflow.Infrastructure.Persistence.Repositories
                 .Select(p => new PostDto
                 {
                     Id = p.Id,
-                    Title = p.Title,
-                    Body = p.Body,
-                    OwnerUserName = "Jeff Atwood",
+                    Title = CreateTitle(p.Title, p.Body, maxTitleLength),
+                    OwnerUserName = p.OwnerUser.DisplayName,
                     IsClosed = p.ClosedDate.HasValue,
                     ClosedDate = p.ClosedDate,
                     CreationDate = p.CreationDate,
@@ -61,6 +60,15 @@ WHERE
             }
 
             return 0;
+        }
+
+
+        private static string CreateTitle(string title, string body, int maxTitleLength)
+        {
+            var postTitle = title ?? body ?? string.Empty;
+            return postTitle.Length > maxTitleLength
+                ? $"{postTitle.Substring(0, maxTitleLength)}..."
+                : postTitle;
         }
     }
 }

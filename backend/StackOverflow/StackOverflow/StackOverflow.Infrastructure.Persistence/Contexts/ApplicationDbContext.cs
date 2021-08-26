@@ -16,6 +16,14 @@ namespace StackOverflow.Infrastructure.Persistence.Contexts
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.Entity<Post>()
+                .Property<int>("OwnerUserId");
+
+            builder.Entity<Post>()
+                .HasOne(p => p.OwnerUser)
+                .WithMany(u => u.Posts)
+                .HasForeignKey("OwnerUserId");
+
             //All Decimals will have 18,6 Range
             foreach (var property in builder.Model.GetEntityTypes()
             .SelectMany(t => t.GetProperties())

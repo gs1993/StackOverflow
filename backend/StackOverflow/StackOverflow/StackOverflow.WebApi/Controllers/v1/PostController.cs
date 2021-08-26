@@ -9,7 +9,12 @@ namespace StackOverflow.WebApi.Controllers.v1
         [HttpGet]
         public async Task<IActionResult> Get([FromQuery] GetPostsParameter filter)
         {
-            var response = await Mediator.Send(new GetPostsQuery() { PageSize = filter.PageSize, PageIndex = filter.PageIndex });
+            var response = await Mediator.Send(new GetPostsQuery()
+            { 
+                PageSize = filter.PageSize, 
+                PageIndex = filter.PageIndex,
+                MaxTitleLength = filter.MaxTitleLength
+            });
             return Ok(response);
         }
     }
