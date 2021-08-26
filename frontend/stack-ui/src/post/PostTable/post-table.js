@@ -1,17 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { useTable, useFilters, useSortBy } from "react-table";
 import "./post-table.css"
 
-export default function PostTable({ columns, data }) {
-    const [filterInput, setFilterInput] = useState("");
-    // Use the state and functions returned from useTable to build your UI
+export default function PostTable({ columns, data, pageSize, count, handlePageSizeChange }) {
     const {
         getTableProps,
         getTableBodyProps,
         headerGroups,
         rows,
         prepareRow,
-        setFilter
     } = useTable(
         {
             columns,
@@ -21,20 +18,9 @@ export default function PostTable({ columns, data }) {
         useSortBy
     );
 
-    const handleFilterChange = e => {
-        const value = e.target.value || undefined;
-        setFilter("show.name", value);
-        setFilterInput(value);
-    };
 
-    // Render the UI for your table
     return (
         <>
-            <input
-                value={filterInput}
-                onChange={handleFilterChange}
-                placeholder={"Search name"}
-            />
             <table {...getTableProps()}>
                 <thead>
                     {headerGroups.map(headerGroup => (

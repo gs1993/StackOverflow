@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using MediatR;
+﻿using MediatR;
 using StackOverflow.Application.DTOs.Post;
 using StackOverflow.Application.Filters;
 using StackOverflow.Application.Interfaces.Repositories;
@@ -17,7 +16,7 @@ namespace StackOverflow.Application.Features.Posts.Queries
 
     public class GetPostsQuery : IRequest<PagedResponse<IEnumerable<PostDto>>>
     {
-        public int PageNumber { get; set; }
+        public int PageIndex { get; set; }
         public int PageSize { get; set; }
     }
 
@@ -30,13 +29,15 @@ namespace StackOverflow.Application.Features.Posts.Queries
             _postRepository = postRepository;
         }
 
+
         public async Task<PagedResponse<IEnumerable<PostDto>>> Handle(GetPostsQuery request, CancellationToken cancellationToken)
         {
-            int skip = (request.PageNumber - 1) * request.PageSize;
+            int skip = request.PageIndex * request.PageSize;
             int take = request.PageSize;
             var postPage = await _postRepository.GetPosts(skip, take);
+            var postCount = await _postRepository.FastApproximateCount();
 
-            return new PagedResponse<IEnumerable<PostDto>>(postPage, request.PageNumber, request.PageSize);
+            return new PagedResponse<IEnumerable<PostDto>>(postPage, request.PageIndex, request.PageSize, postCount);
         }
     }
 }

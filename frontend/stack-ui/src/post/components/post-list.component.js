@@ -1,7 +1,8 @@
 import React, { useMemo, useState, useEffect } from "react";
-import PostTable from "../PostTable/post-table"
-import api from "../../api";
+import PostTable from "../PostTable/post-table";
+import PostService from "../post.service";
 import dateFormat from "dateformat";
+import Pagination from "@material-ui/lab/Pagination";
 
 const DateFormater = ({ value }) => {
     const year = dateFormat(value, "yyyy");
@@ -87,26 +88,83 @@ export default function PostList() {
         []
     );
 
+    const pageSizes = [3, 6, 9];
+
     const [data, setData] = useState([]);
+    const [page, setPage] = useState(1);
+    const [count, setCount] = useState(0);
+    const [pageSize, setPageSize] = useState(3);
 
-    useEffect(() => {
-        (async () => {
-            const response = await api.get("Post?PageNumber=1&PageSize=10");
-            var succeeded = response.data.succeeded;
-            if (succeeded)
-                setData(response.data.data);
-            else
-                console.error(response.errors);
+    const getRequestParams = (page, pageSize) => {
+        let params = {};
 
 
-        })();
-    }, []);
+        if (page) {
+            params["pageIndex"] = page;
+        }
+
+        if (pageSize) {
+            params["pageSize"] = pageSize;
+        }
+
+        return params;
+    };
+
+    const retrievePosts = () => {
+        const params = getRequestParams(page, pageSize);
+        PostService.getAll(params)
+            .then((response) => {
+                const { data, totalItems } = response;
+
+                const totalPages = Math.ceil(totalItems / pageSize);
+                setData(data);
+                setCount(totalPages);
+            })
+            .catch((e) => {
+                console.log(e);
+            });
+    };
+
+    useEffect(retrievePosts, [page, pageSize]);
+
+    const handlePageChange = (event, value) => {
+        setPage(value);
+    };
+
+    const handlePageSizeChange = (event) => {
+        setPageSize(event.target.value);
+        setPage(0);
+    };
 
     return (
         <div>
-            <PostTable columns={columns} data={data} />
+            <div className="col-md-12 list">
+                <div className="mt-3">
+                    {"Items per Page: "}
+                    <select onChange={handlePageSizeChange} value={pageSize}>
+                        {pageSizes.map((size) => (
+                            <option key={size} value={size}>
+                                {size}
+                            </option>
+                        ))}
+                    </select>
+
+                    <Pagination
+                        className="my-3"
+                        count={count}
+                        page={page}
+                        siblingCount={1}
+                        boundaryCount={1}
+                        variant="outlined"
+                        shape="rounded"
+                        onChange={handlePageChange}
+                    />
+
+                </div>
+            </div>
+
+            <PostTable columns={columns} data={data} pageSize={pageSize}
+                handlePageSizeChange={handlePageSizeChange} />
         </div>
     );
-
-
 }

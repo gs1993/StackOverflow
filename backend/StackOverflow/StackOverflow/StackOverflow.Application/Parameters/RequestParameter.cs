@@ -2,18 +2,18 @@
 {
     public record RequestParameter
     {
-        public int PageNumber { get; init; }
+        public int PageIndex { get; init; }
         public int PageSize { get; init; }
 
         public RequestParameter()
         {
-            PageNumber = 1;
+            PageIndex = 1;
             PageSize = 10;
         }
 
-        public RequestParameter(int pageNumber, int pageSize)
+        public RequestParameter(int pageIndex, int pageSize)
         {
-            PageNumber = pageNumber < 1 ? 1 : pageNumber;
+            PageIndex = pageIndex < 0 ? 0 : pageIndex;
             PageSize = pageSize < 1 ? 1 : pageSize;
         }
     }

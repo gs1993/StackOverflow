@@ -1,12 +1,17 @@
-import api from "../api";
+import http from "../http-common";
 
-export default class PostService {
-    getPage() {
-        api.get("Post?PageNumber=1&PageSize=10")
-            .then(function (response) {
-                console.log(response);
-                return response;
-            });
-    }
+const getAll = (params) => {
+    return http.get("Post", { params })
+        .then(function (response) {
+            var data = response.data.data;
+            var totalItems = response.data.totalItems;
 
-}
+            return { data, totalItems };
+        });
+};
+
+const exportedObject = {
+    getAll
+};
+
+export default exportedObject;
